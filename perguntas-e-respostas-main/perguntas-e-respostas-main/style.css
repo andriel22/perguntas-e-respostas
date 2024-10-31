@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --roxo:var(5f0f40);
+    --vermelho:var(9A031E);
+    --amarelo:var(FB8B24);
+    --laranja:var(E36414);
+    --azul-marinho:var(0F4C5C);
+    --branco:var(--branco)
+}
+
+body{
+    font-family: var(--branco);
+    background-color: var(--azul-marinho);
+}
+
+footer{
+        text-align: center;
+        position:fixed ;
+        bottom: 0;
+        width: 100%;
+        background-color: var(--amarelo);
+}
+
+footer p{
+    color:var(--roxo);
+    font-size: 0.9rem;
+    margin: 0.8rem 0 1.2rem 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--vermelho);   
+}
